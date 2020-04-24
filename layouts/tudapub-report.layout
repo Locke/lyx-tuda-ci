@@ -1,0 +1,13 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudapub]{TUDa-CI Pub Report}
+#  \DeclareCategory{Reports}
+# Author: André Wolski <andre.wolski@stud.tu-darmstadt.de>.
+
+Format 66
+
+Input scrreprt.layout
+Input tudapub.inc
+
+ClassOptions
+	Other	"class=report"
+End

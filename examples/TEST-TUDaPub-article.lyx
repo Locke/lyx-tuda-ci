@@ -1,0 +1,228 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass tudapub-article
+\options ngerman, accentcolor=9c
+\use_default_options true
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style german
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+TUDaPub Article im Corporate Design der TU Darmstadt
+\end_layout
+
+\begin_layout Subtitle
+Die Dokumentenklasse tudapub mit class=article
+\end_layout
+
+\begin_layout Author
+André Wolski
+\end_layout
+
+\begin_layout AddTitleBoxLogo*
+\begin_inset Graphics
+	filename example-image.png
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AddTitleBox
+My Title Box
+\end_layout
+
+\begin_layout Abstract
+Dieses Dokument ist speziell zum Testen auf Basis von scrartcl.layout.
+\end_layout
+
+\begin_layout Abstract
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Vivamus non ipsum vel justo finibus dignissim.
+ Nullam ut nisl eu nisl dignissim volutpat ut ac ligula.
+ In elementum quam et scelerisque tincidunt.
+ Nam pretium, quam nec gravida sagittis, sem elit faucibus turpis, sed finibus
+ est quam ut tellus.
+ In at lectus sed justo feugiat euismod at eu libero.
+ Duis non nulla a orci viverra congue quis sit amet sapien.
+ Ut nec mauris dolor.
+ Phasellus vulputate nisl dolor, sit amet molestie est sagittis in.
+ Nunc rutrum mi vel metus blandit cursus nec nec felis.
+ Vivamus justo tortor, scelerisque fermentum dui at, aliquam ullamcorper
+ ex.
+ Sed congue, nulla ac porta venenatis, erat dui mollis nisi, tempus placerat
+ nisl augue venenatis urna.
+\end_layout
+
+\begin_layout Abstract
+Maecenas faucibus venenatis lacus, pulvinar volutpat mauris finibus commodo.
+ In tincidunt massa et eros rhoncus, at porta nibh pretium.
+ Phasellus ut ex nibh.
+ Donec molestie, mauris eu imperdiet eleifend, mauris dolor feugiat lacus,
+ a tempor arcu mi lobortis tortor.
+ Mauris pellentesque orci sit amet mauris convallis malesuada.
+ Donec vitae fermentum leo.
+ Pellentesque tristique, arcu vitae porta placerat, ante lorem bibendum
+ risus, ac pretium massa augue vel nisi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+
+\lang english
+This document is only for testing.
+\end_layout
+
+\begin_layout Abstract
+
+\lang english
+Aliquam dictum mattis diam, in interdum risus ornare maximus.
+ Nulla a imperdiet massa.
+ Morbi in elementum eros.
+ Nulla pharetra accumsan orci, at placerat mi hendrerit id.
+ Aliquam est nisl, pretium id orci ac, aliquet facilisis eros.
+ Aenean ac lobortis felis.
+ Vestibulum interdum semper faucibus.
+ In scelerisque eros libero, non blandit erat fringilla sagittis.
+ Praesent risus mi, fermentum non volutpat a, tincidunt nec nibh.
+ Mauris est quam, imperdiet nec ultricies id, vulputate a purus.
+ Maecenas a lorem lobortis, convallis turpis vel, faucibus ante.
+ Suspendisse aliquam accumsan nisl, eget gravida orci volutpat id.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+
+\lang french
+Ce document est à tester.
+\end_layout
+
+\begin_layout Abstract
+
+\lang french
+Donec velit lacus, tempus vel euismod non, fermentum ut tortor.
+ Morbi ut purus accumsan, interdum tortor non, pellentesque dolor.
+ Vestibulum rutrum arcu pretium enim rutrum posuere.
+ Etiam accumsan est sit amet dui gravida, a commodo arcu hendrerit.
+ Morbi non molestie urna, ac consequat lectus.
+ Donec sed dolor faucibus, sodales ligula a, cursus neque.
+ Suspendisse in ligula malesuada, dignissim dui id, ullamcorper lectus.
+ Phasellus at feugiat nisl.
+\end_layout
+
+\begin_layout Section
+Erste Sektion
+\end_layout
+
+\begin_layout Standard
+Noch befindet sich das Projekt in der Testphase.
+ Sollten Sie Fragen, Wünsche und Anregungen haben, bitten wir um eine entspreche
+nde Mitteilung.
+\end_layout
+
+\begin_layout Standard
+Phasellus pharetra, mi sit amet consectetur consequat, nunc justo ornare
+ risus, et imperdiet sapien augue sit amet orci.
+ Duis ornare semper enim in fermentum.
+ Etiam a rutrum quam.
+ Nulla quis nibh et mauris placerat convallis.
+ Fusce nec augue vitae purus euismod faucibus.
+ Etiam tincidunt tempor neque eu pellentesque.
+ Nulla non dolor et urna lacinia auctor et pretium dolor.
+ Vestibulum semper aliquet leo sit amet ultrices.
+ Cras condimentum sagittis justo, et vestibulum dui dignissim sed.
+ Praesent rhoncus hendrerit dolor nec dignissim.
+ Quisque ultrices tellus diam, eget dapibus tellus tincidunt non.
+ Etiam tristique metus vel lobortis porttitor.
+ Duis ligula urna, dapibus non rhoncus non, commodo ac nisi.
+ Vestibulum hendrerit ut ante sed ultricies.
+ Vivamus id nisi a nisl pellentesque imperdiet.
+ Mauris vel sapien posuere, dignissim eros quis, finibus metus.
+\end_layout
+
+\end_body
+\end_document
