@@ -1,0 +1,365 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass tudabeamer
+\options ngerman, aspectratio=169, color={accentcolor=2d}, logo=false, colorframetitle=true, authorontitle=true
+\use_default_options true
+\maintain_unincluded_children false
+\begin_local_layout
+
+Format 66
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+LaTeX-Beamer im Corporate Design der TU Darmstadt 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Title
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Mit \SpecialChar LyX
+-Layout 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Subtitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+André Wolski 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Author
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Department
+\SpecialChar LyX
+-Department 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TeX
+\end_layout
+
+\end_inset
+
+-Institute 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Institute
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+01.01.1970 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Logo*
+\begin_inset Graphics
+	filename example-image.png
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Fremdlogo in Fußzeile, Macro mit Sternchen skaliert automatisch, sodass
+ das Logo in die Fußzeile passt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Titlegraphic*
+\begin_inset Graphics
+	filename example-image.png
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Da das Bild frei wählbar nach Breite und/oder Höhe skaliert werden kann,
+ werden 
+\backslash
+width/
+\backslash
+height entsprechend gesetzt.
+ So kann die Fläche optimal gefüllt werden.
+\end_layout
+
+\begin_layout Plain Layout
+Sternchenversion skaliert automatisch und beschneidet das Bild, um die Fläche
+ zu füllen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dokumentation
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Die Dokumentenklasse tudabeamer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Verwendung wie beamer
+\end_layout
+
+\begin_layout Itemize
+keine besondere Syntax notwendig
+\end_layout
+
+\begin_layout Itemize
+Klassenoption 
+\emph on
+accentcolor
+\emph default
+ wählt Akzentfarbe
+\end_layout
+
+\begin_layout Itemize
+Option 
+\emph on
+serif=true
+\emph default
+ für Serifenschrift
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Zusätzliche Features der Titelfolie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Logo
+\emph default
+ bzw.
+ 
+\emph on
+Logo*
+\emph default
+ wählen Fremdlogo für Fußzeile
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Titlegraphic
+\emph default
+ ersetzt den unteren Teil der Titelfolie.
+ Zusätzlich existiert 
+\emph on
+titlegraphic
+\emph default
+*.
+ In diesem Fall wird der Inhalt in eine Box gesetzt, die so skaliert wird,
+ dass Sie den Bereich des Titelbildes überdeckt und entsprechend mittig
+ ausgeschnitten.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Über die Option 
+\emph on
+authorontitle=true/false
+\emph default
+ kann zusätzlich zu den offiziellen Vorgaben der Autor und das Institut
+ groß auf der Titelfolie gezeigt werden.
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout TUDaFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Mit Logo?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Test!
+\end_layout
+
+\end_body
+\end_document

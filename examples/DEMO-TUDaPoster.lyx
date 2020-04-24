@@ -1,0 +1,270 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass tudaposter
+\options paper=a0, ngerman, accentcolor=9c, logo=body, footer=true
+\use_default_options true
+\begin_modules
+multicol
+sectionbox
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\SpecialChar LyX
+ im Corporate Design der TU
+\begin_inset space ~
+\end_inset
+
+Darmstadt
+\end_layout
+
+\begin_layout Subtitle
+Die Dokumentenklasse tudaposter
+\end_layout
+
+\begin_layout Author
+André Wolski
+\end_layout
+
+\begin_layout Section*
+Grundlengende Informationen
+\end_layout
+
+\begin_layout Standard
+Die Dokumentenklasse tudaposter dient der Erstellung von Aushängen und nicht-wis
+senschaftlichen-Plakaten im Stil der TU-Darmstadt.
+ Sie ist Teil des TUDa-CI-Bundles.
+\end_layout
+
+\begin_layout Subsection*
+Verwendung
+\end_layout
+
+\begin_layout Standard
+Im wesentlichen entspricht Ihre Verwendung der Klasse tudapub, da die Titel
+ ähnlich aufgebaut sind.
+ Unterhalb des Titels, kann der Anwender normalen Fließtext schreiben oder
+ wie bei Standard-\SpecialChar LaTeX
+ formatieren.
+\end_layout
+
+\begin_layout Standard
+Die tudaposter-Klasse basiert wie auch tudapub auf KOMAScript 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+KOMAScript{}
+\end_layout
+
+\end_inset
+
+und bietet daher mehr Mechanismen als für Poster grunsätzlich notwendig
+ sind.
+\end_layout
+
+\begin_layout Standard
+Im Unterschied zur tudasciposter-Klasse, die auf tikzposter basiert, ermöglicht
+ tudaposter es wie gewohnt Fließtext zu schreiben, um ergänzende Informationen
+ einfach zu platzieren.
+\end_layout
+
+\begin_layout Subsection*
+Titelei
+\end_layout
+
+\begin_layout Standard
+Die Titelerzeugung funktioniert wie bei Standard-\SpecialChar LaTeX
+ über den maketitle-Mechanismus.
+ Neben der Makros title, subtitle und author stehen noch titlegraphic, addTitleB
+ox, footerqrcode und footer zur Verfügung.
+ Bis auf footerqrcode wird lediglich der Inhalt entsprechend platziert.
+ Ein Beispiel für die Verwendung ist der Datei DEMO-TUDaPoster.tex gezeigt.
+\end_layout
+
+\begin_layout Subsection*
+Längenangaben
+\end_layout
+
+\begin_layout Standard
+Innerhalb des Posterinhaltes (Dazu zählt auch die titlegraphic) sind zwei
+ Längenmaße vordefiniert.
+ 
+\backslash
+texttt{
+\backslash
+textbackslash{}contentwidth} und 
+\backslash
+texttt{
+\backslash
+textbackslash{}contentheight}.
+ Die Höhe entspricht dabei dem Abstand zwischen Titelblock und Fußzeile/Trennlin
+ie.
+\end_layout
+
+\begin_layout Subsection*
+Dokumentenklassenoptionen
+\end_layout
+
+\begin_layout Description
+paper=<Papierformat> Papierformat.
+ Voreingestellt ist a0.
+ Unterstützt werden Formate von A0 bis A4.
+\end_layout
+
+\begin_layout Description
+fontsize=<Schriftgröße/auto> Basischriftgröße.
+ Die anderen Größen werden entsprechend skaliert.
+ Für die unterstützte Papierformate sind entsprechende Skalierungsschritte
+ hinterlegt, diese Voreinstellung entspricht dem Wert auto.
+\end_layout
+
+\begin_layout Description
+logo=head/body Das Logo wird in der Idenditätsleiste (head) oder innerhalb
+ des Dokumenteninhalts, ggf.
+ überlappend mit dem Bild gesetzt.
+ 
+\backslash
+item[color=<Farbkürzel>] Akzentfarbe nach den Corporate Design Richtlinien.
+\end_layout
+
+\begin_layout Description
+colorsubtitle=true/false Hintergrundfarbe beim Untertitel an-/ausschalten.
+\end_layout
+
+\begin_layout Description
+footer=true/false Aktivierung/Deaktivierung der Fußzeile.
+ Voreinstellung ist false.
+\end_layout
+
+\begin_layout Description
+marginpar=true/false Ermöglicht die Nutzung einer Randnotizspalte.
+ Diese hat die Breite des Logos.
+ Sie wird entweder über das Makro 
+\backslash
+code{
+\backslash
+tbs{}SetMarginpar} oder über das Standard-Makro 
+\backslash
+code{
+\backslash
+tbs{}marginpar} befüllt.
+ Eine Verwendung dieses Modus ist in der zusätzlichen Demo-Datei 
+\backslash
+file{DEMO-TUDaAnnouncement} gezeigt.
+ Die Randnotizspalte überlappt die Abbildung, die zum Titel gehört.
+ Kombinationen von 
+\backslash
+code{marginpar=true} und 
+\backslash
+code{
+\backslash
+tbs{}titlegraphic} sollten daher nur mit Vorsicht genuzt werden.
+\end_layout
+
+\begin_layout Description
+title=large/small/default Ermöglicht es die Schriftgrößen um eine Stufe
+ zu verkleinern.
+ Die Option 
+\backslash
+code{large} entspricht hierbei der Option 
+\backslash
+code{default}.
+ Im Fall des Wertes 
+\backslash
+code{small} werden die Titelschriftgrößen des nächsten kleineren Papierformates
+ verwendet.
+ Die Basischriftgröße und die Randeinstellungen bleiben davon unberührt.
+ 
+\backslash
+item[type=default/announcement] Diese Option liefert die Möglichkeit bestimmte
+ Posterlayouts über einen Einzigen Wert zu laden.
+ Der Wert 
+\backslash
+code{announcement} setzt die folgenden Optionen: 
+\backslash
+code{marginpar=true, indenttext=false, logo=head, title=small,colorsubtitle=true
+} und aktiviert zusätzlich die Ausgabe des Untertitels in fetter Schrift.
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\end_body
+\end_document

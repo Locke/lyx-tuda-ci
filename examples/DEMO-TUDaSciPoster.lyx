@@ -1,0 +1,146 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass tudasciposter
+\begin_preamble
+\usepackage[ngerman]{babel}
+\usepackage{microtype}
+\usepackage[autostyle]{csquotes}
+
+\newcommand{\tbs}{\textbackslash}
+\newcommand{\repl}[1]{<\textit{#1}>}
+\let\code\texttt
+\newcommand*{\macro}[1]{\code{\tbs#1}}
+\let\file\texttt
+\let\pck\textsf
+\let\cls\textsf
+\end_preamble
+\options accentcolor=9c, boxstyle=boxed
+\use_default_options true
+\begin_modules
+multicol
+sectionbox
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+TUDa CI
+\end_layout
+
+\begin_layout Section*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{posterboxenv}
+\end_layout
+
+\begin_layout Plain Layout
+
+	Die tudasciposter-Klasse basiert auf dem Paket von Thomas F.
+ Sturm.
+\end_layout
+
+\begin_layout Plain Layout
+
+	Sie versucht einen einfachen Weg zu bieten, wissenschaftliche Poster im
+ Corporate Design der TU Darmstadt zu erstellen.
+ Dieses Dokument dient als Dokumentation und Verwendungsbeispiel.
+\end_layout
+
+\begin_layout Plain Layout
+
+	Dieses Dokument verwendet unterschiedliche Boxentypen.
+ Dies ist selbstverständlich für die praktische Verwendung nicht empfehlenswert.
+ Dieser Modus dient lediglich Demonstrationszwecken.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{posterboxenv}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

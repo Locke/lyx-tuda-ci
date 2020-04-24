@@ -1,0 +1,44 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudaexercise]{TUDa-CI Exercise}
+#  \DeclareCategory{Reports}
+# Original Author: André Wolski <andre.wolski@stud.tu-darmstadt.de>
+
+Format 66
+
+Input scrreprt.layout
+
+
+Style Subtitle
+	CopyStyle             Title
+	LatexName             subtitle
+End
+
+Style CourseTerm
+	CopyStyle             Author
+	LabelString           "Course Term"
+	LatexName             term
+End
+
+Style ExcerciseSheetnumber
+	CopyStyle             Author
+	LabelString           "Excercise Sheetnumber"
+	LatexName             subsubtitle
+End
+
+# TODO: find better source, maybe something like beamer frame
+Style ExcerciseTask
+	CopyStyle             Quote
+	LabelString           "Excercise Task"
+	LatexName             task
+	LatexType             Environment
+	Argument 1
+		LabelString   "Excercise Task Title"
+		Mandatory     1
+	EndArgument
+End
+
+Style ExcerciseTaskSolution
+	LabelString           "Excercise Task Solution"
+	LatexName             solution
+	LatexType             Environment
+End

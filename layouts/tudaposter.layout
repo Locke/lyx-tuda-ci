@@ -1,0 +1,13 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudaposter]{TUDa-CI Poster}
+#  \DeclareCategory{Posters}
+# Original Author: André Wolski <andre.wolski@stud.tu-darmstadt.de>
+
+Format 66
+
+Input a0poster.layout
+
+Style Subtitle
+	CopyStyle             Title
+	LatexName             subtitle
+End

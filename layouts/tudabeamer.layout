@@ -1,0 +1,53 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudabeamer]{TUDa-CI Beamer}
+#  \DeclareCategory{Presentations}
+# Requires beamer
+# Original Author: André Wolski <andre.wolski@stud.tu-darmstadt.de>
+
+Format 66
+
+Input beamer.layout
+
+
+
+Style Department
+	CopyStyle             Author
+	LatexName             department
+End
+
+Style Institute
+	CopyStyle             Author
+	LatexName             institute
+End
+
+Style Logo
+	CopyStyle             Author
+	LatexName             logo
+End
+
+Style Logo*
+	CopyStyle             Author
+	LatexName             logo*
+End
+
+Style Titlegraphic
+	CopyStyle             TitleGraphic
+	LatexName             titlegraphic
+End
+
+
+Style Titlegraphic*
+	CopyStyle             TitleGraphic
+	LatexName             titlegraphic*
+End
+
+# TODO: \setupTUDaFrame{logo=true}
+#
+#Style TUDaFrame
+#	CopyStyle             FragileFrame
+#	LatexName             setupTUDaFrame
+#	LabelString           "Frame (with logo)"
+#	LatexParam            logo=true
+#	LatexType             Command
+#End
+
