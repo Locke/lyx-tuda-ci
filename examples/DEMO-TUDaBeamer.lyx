@@ -7,12 +7,15 @@
 \textclass tudabeamer
 \options ngerman, aspectratio=169, color={accentcolor=2d}, logo=false, colorframetitle=true, authorontitle=true
 \use_default_options true
+\begin_modules
+logicalmkup
+\end_modules
 \maintain_unincluded_children false
 \begin_local_layout
 
 Format 66
 \end_local_layout
-\language english
+\language ngerman
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -68,7 +71,7 @@ Format 66
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style german
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -325,12 +328,21 @@ titlegraphic
 
 \end_deeper
 \begin_layout Frame
-Über die Option 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: Über die Option 
 \emph on
 authorontitle=true/false
 \emph default
  kann zusätzlich zu den offiziellen Vorgaben der Autor und das Institut
  groß auf der Titelfolie gezeigt werden.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -344,12 +356,12 @@ authorontitle=true/false
 
 \end_layout
 
-\begin_layout TUDaFrame
+\begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Mit Logo?
+Logo im Frametitle
 \end_layout
 
 \end_inset
@@ -357,8 +369,450 @@ Mit Logo?
 
 \end_layout
 
+\begin_layout Frame
+TODO...
+\end_layout
+
+\begin_layout Frame
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: Das Logo innerhalb des Frametitle kann mit der Klassenoption logo=false
+ abgeschaltet werden.
+ Soll das Logo später für ein Folie oder einen Bereich wieder aktiviert
+ werden, steht das Makro 
+\backslash
+setupTUDaFrame{logo=true} Zur Verfügung.
+ Dort kann die globale Einstellung lokal überschrieben werden.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Standard
-Test!
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Frame mit Untertitel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+Untertitel
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Ein Beispiel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Blöcke
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Standardblock mit Titel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+Blockinhalt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+Ohne Titel
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Spezielle Blöcke
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Exampleblock
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ExampleBlock
+Blockinhalt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Alertblock
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+Blockinhalt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Für die example-Umgebung
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+Inhalt
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Hinweis zur Ausrichtung (insbesondere columns)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Die Standardausrichtung wurde gegenüber den Beamer-Voreinstellungen von
+ 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ zu 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ geändert.
+ Dies bedeutet, dass Inhalt auf der Folie oben ausgerichtet wird.
+ Dies entspricht den Vorgaben, hat allerdings den Nachteil, dass die 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+columns
+\end_layout
+
+\end_inset
+
+-Umgebung in diesem Fall bei der Positionierung von Bildern ungewohnte Ergebniss
+e erzeugt.
+\end_layout
+
+\begin_layout Frame
+Die Ausrichtung kann in diesem Fall entweder global mit der Option 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ wieder zum Standard geändert werden, oder aber das 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ wird direkt an die 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+columns
+\end_layout
+
+\end_inset
+
+-Umgebung übergeben.
+ Zum Beispiel:
+\end_layout
+
+\begin_deeper
+\begin_layout Columns
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+onlytextwidth,c
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+.8
+\backslash
+linewidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+eins
+\end_layout
+
+\begin_layout Itemize
+zwei
+\end_layout
+
+\begin_layout Column
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+.2
+\backslash
+linewidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Columns
+\begin_inset Graphics
+	filename example-image.png
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Anpassungen der Mathematikschriftarten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+TODO: Test / verify
+\end_layout
+
+\begin_layout Frame
+\begin_inset Note Note
+status open
+
+\begin_layout Frame
+Es gibt keine feste Vorgabe zur Verwendung einer Mathematikschrift.
+ In der Diskussion (https://github.com/tudace/tuda_latex_templates/issues/30)
+ hat sich folgendes als hinreiche Lösung herausgestellt.
+ Jedoch funktioniert diese Lösung nicht in pdflatex!
+\end_layout
+
+\begin_layout Frame
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{unicode-math}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setmathfont{Fira Math}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setmathfont[range=up]{Roboto}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setmathfont[range=it]{Roboto-Italic}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setmathfont[range=
+\backslash
+int]{Fira Math}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Allgemein kann jedoch die Mathematikschriftart wie auch sonst durch Pakete
+ angepasst werden.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
