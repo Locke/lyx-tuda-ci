@@ -1,0 +1,12 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[tudapub]{TUDaThesis (Master)}
+#  \DeclareCategory{Reports}
+# Original Author: André Wolski <andre.wolski@stud.tu-darmstadt.de>
+
+Format 66
+
+Input tudathesis.inc
+
+ClassOptions
+        Other   "thesis={type=master}"
+End
